@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Cinepulse Ad Bypass",
+  "version": "1.0",
+  "description": "Removes ad overlay on Cinepulse websites",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://cinepulse.lol/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
