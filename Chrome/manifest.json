@@ -7,7 +7,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://cinepulse.lol/*"
+        "*://cinepulse.co/*"
       ],
       "js": ["content.js"],
       "run_at": "document_idle"
